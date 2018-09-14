@@ -1,3 +1,102 @@
-.wrapper2 {
-    margin-top: 20px;
+
+.snack {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    background-image: url("../images/snackHP.jpg");
+    height: 300px;
+    border-radius: 10px;
 }
+
+
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 900;
+    text-shadow: 2px 2px gray;
+
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+.container {
+    color: rgb(120, 120, 120);
+    font-family: 'Rajdhani', cursive;
+    font-size: 30px;
+    
+}
+
+#top {
+    margin-top: 120px;
+}
+
+#bottom {
+    margin-bottom: 100px;
+}
+
+.row {
+    margin-left: 120px;
+    margin-right: 120px;
+    color: lightgray;
+}
+a.about {
+    color: darkgrey;
+}
+
+a.about:hover {
+    color: lightgrey;
+}
+.center {
+    width: 800px;
+}
+.red {
+    color: darkred;
+}
+
+.container-fluid {
+    height: 300px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.navbar {
+    font-family: 'Rajdhani', cursive;
+    background-color: rgb(60, 60, 60);
+    
+}
+
+
+.form-control {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+ body {
+    background-color: rgb(120, 120, 120);
+ }
+ 
+ @media only screen and (max-width: 640px) {
+	#masthead {
+	 
+	  position: static;
+	  margin-bottom: 20px;
+	}
+  
+	header .container {
+	  padding: 0;
+	}
+  
+	main.container {
+	  padding-top: 0;
+}
+
+ }
