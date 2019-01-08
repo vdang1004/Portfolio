@@ -81,7 +81,7 @@ a.about:hover {
 }
 
  body {
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(50, 50, 50);
  }
  
  @media only screen and (max-width: 640px) {
