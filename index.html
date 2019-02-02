@@ -1,61 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Vincent Dang</title>
-		
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link href= "assets/css/style.css" rel= "stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-end">
-                <a class="navbar-brand" href="index.html"><span class="red"><h1>Vincent Dang</h1></span></a>
-                <a class="about ml-auto mr-2" href="about.html" style="text-decoration:none">About</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                    <ul class="navbar-nav text-right">
-                        <li class="nav-item inactive">
-                            <a class="nav-link" href="portfolio.html"> Portfolio </a>
-                        </li>
-                        <li class="nav-item inactive">
-                            <a class="nav-link" href="contact.html"> Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            
-    
-        
-            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 offset-lg-2 offset-md-1 float-md-center">
-                    <div class="jumbotron vertical-center">
-                      <div class="container">
-                        <div class="container-fluid">
-                          <div class="column">
-                            <h1 class="display-4 text-center">Hello, I'm <span class="red">Vincent Dang</span></h1>
-                            <h4 class="text-center">I'm a full-stack web developer</h4>
-                            <br>
-                            <hr width="50%">
-                        
-                            <center><a class="btn btn-secondary btn-lg" href="about.html" role="button text-center">Learn more about Me</a></center>
-                            
-                            <!-- figure -->
-                          </div>
-                          <!-- column -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
-            
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>VJD - Web Designs & Solutions</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
     
-    <div class="footer">
-        <a href="https://www.linkedin.com/in/vincentjdang" class="col-xs-6 col-sm-6 col-lg-6" target="_blank">
-            
-    </div>	
-		
-</body>
-</HTML>
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vincent Dang</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              Hello, I'm <strong>Vincent Dang</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">I'm an agile team player & full-stack web developer</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">LEARN MORE ABOUT ME</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <img class="profilePic sr-icon-1" src="img/profilepic.png">
+            <hr class="light my-4">
+            <p class="text-faded mb-4">User-focused Full Stack Web Developer with a background in Computer Information Systems, Marketing & Design that is experienced in overseeing the build and delivery of complex IT projects.  Holds communication in high regard and adept at working with diverse teams to build strong applications and to provide client-centric support.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Let's Build Something Together!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-1"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text-muted mb-0">I currently focus on the MERN stack but always stay up-to-date with new tech to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fab fa-fort-awesome fa-4x text-primary mb-3 sr-icon-2"></i>
+              <h3 class="mb-3">Sturdy Coding</h3>
+              <p class="text-muted mb-0">Bugs & errors are annoying.  I follow and adhere to coding standards to ensure reliable code.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-3"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text-muted mb-0">User-focused to ensure an enjoyable experience and ease-of-use.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="far fa-handshake fa-4x text-primary mb-3 sr-icon-4"></i>
+              <h3 class="mb-3">Agile Team Player</h3>
+              <p class="text-muted mb-0">The world is a better place when we're in it together.  I hold open communication and teamwork in the highest regard.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    UNDER
+                  </div>
+                  <div class="project-name">
+                    CONSTRUCTION
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://vdang1004.github.io/GroupProject1/atliens/" target="blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/atl.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Back-End
+                  </div>
+                  <div class="project-name">
+                    Node
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://boiling-plateau-32381.herokuapp.com/drinks" target="blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/salud.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Full-Stack
+                  </div>
+                  <div class="project-name">
+                    MySQL, Express, HandleBars & Node  
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://vdang1004.github.io/Trains/" target="blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/train.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Front-End
+                  </div>
+                  <div class="project-name">
+                    HTML & CSS  
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                      UNDER
+                  </div>
+                  <div class="project-name">
+                      CONSTRUCTION
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://young-sea-37961.herokuapp.com/" target="blank">
+              <img class="img-fluid" src="img/portfolio/thumbnails/stacks.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Full-Stack
+                  </div>
+                  <div class="project-name">
+                    MongoDB, Express, React, & Node
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Resume</h2>
+        <a class="btn btn-light btn-xl sr-button" href="img/VincentDangResume2019.pdf" target="blank">PDF</a>
+        <a class="btn btn-light btn-xl sr-button" href="img/VincentDangResume2019.docx" target="blank">DOC</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Keep In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Shoot me a message & I'll get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <a href="https://github.com/vdang1004" target="blank">
+              <i class="fab fa-github fa-3x mb-3 sr-contact-1"></i>
+              <p>
+                vdang1004@GitHub
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <a href="https://www.linkedin.com/in/vincentjdang/" target="blank">
+              <i class="fab fa-linkedin fa-3x mb-3 sr-contact-2"></i>
+              <p>
+              vincentjdang@LinkedIn
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <a href="mailto:vincentdang@live.com">
+              <i class="fas fa-envelope fa-3x mb-3 sr-contact-1"></i>
+              <p>
+              vincentd...@live.com
+              </p>
+            </a>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+
+    <!-- Plugin JavaScript -->
+    
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    
+    <script src="js/creative.min.js"></script>
+    
+
+  </body>
+
+</html>
